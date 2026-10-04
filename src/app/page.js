@@ -7,6 +7,7 @@ import TreatmentIntro from "@/components/sections/TreatmentIntro";
 import Benefits from "@/components/sections/Benefits";
 import Testimonials from "@/components/sections/Testimonials";
 import BottomCTA from "@/components/sections/BottomCTA";
+import Footer from "@/components/sections/Footer";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
       <Benefits />
       <Testimonials />
       <BottomCTA />
+      <Footer />
     </main>
   );
 }
