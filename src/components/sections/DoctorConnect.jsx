@@ -48,7 +48,7 @@ export default function DoctorConnect() {
   };
 
   return (
-    <section id="about" className="bg-[#fbfaf9] py-2 sm:py-8">
+    <section id="about" className="bg-[#f7f7f7] py-2 sm:py-4">
       <Container>
         <div className="grid grid-cols-1 gap-2 md:grid-cols-2 xl:grid-cols-4">
           {/* Latest Visited Doctors */}

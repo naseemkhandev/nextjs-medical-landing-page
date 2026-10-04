@@ -14,7 +14,7 @@ const PlayButton = ({ label }) => (
 
 export default function VideoService() {
   return (
-    <section id="services" className="overflow-hidden bg-[#fbfaf9] py-[90px] sm:py-[110px] lg:py-[145px]">
+    <section id="services" className="overflow-hidden bg-[#f7f7f7] py-[90px] sm:py-[110px] lg:py-[145px]">
       <Container>
         {/* Section Heading */}
         <motion.h2 initial={{ opacity: 0, y: 35 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.35 }} transition={revealTransition} className="max-w-[1120px] text-[38px] font-normal leading-[1.12] tracking-[-2px] sm:text-[48px] sm:tracking-[-2.6px] lg:text-[58px] lg:leading-[1.08] lg:tracking-[-3.4px]">
