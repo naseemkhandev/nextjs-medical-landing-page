@@ -3,6 +3,7 @@ import Hero from "@/components/sections/Hero";
 import DoctorConnect from "@/components/sections/DoctorConnect";
 import VideoService from "@/components/sections/VideoService";
 import MedicalFeatures from "@/components/sections/MedicalFeatures";
+import TreatmentIntro from "@/components/sections/TreatmentIntro";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <DoctorConnect />
       <VideoService />
       <MedicalFeatures />
+      <TreatmentIntro />
     </main>
   );
 }
