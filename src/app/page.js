@@ -5,6 +5,7 @@ import VideoService from "@/components/sections/VideoService";
 import MedicalFeatures from "@/components/sections/MedicalFeatures";
 import TreatmentIntro from "@/components/sections/TreatmentIntro";
 import Benefits from "@/components/sections/Benefits";
+import Testimonials from "@/components/sections/Testimonials";
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <MedicalFeatures />
       <TreatmentIntro />
       <Benefits />
+      <Testimonials />
     </main>
   );
 }

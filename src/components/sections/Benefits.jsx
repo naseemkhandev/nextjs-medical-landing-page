@@ -33,7 +33,7 @@ const benefits = [
 
 export default function Benefits() {
   return (
-    <section id="benefits" className="bg-[#fbfaf9] pb-25 sm:pb-32.5 lg:pb-41.25">
+    <section id="benefits" className="bg-[#fbfaf9] pb-15 sm:pb-32.5 lg:pb-10">
       <Container>
         {/* Benefits Heading */}
         <div className="grid grid-cols-1 gap-8 lg:grid-cols-[1fr_0.8fr] lg:items-end">
