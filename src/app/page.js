@@ -4,6 +4,7 @@ import DoctorConnect from "@/components/sections/DoctorConnect";
 import VideoService from "@/components/sections/VideoService";
 import MedicalFeatures from "@/components/sections/MedicalFeatures";
 import TreatmentIntro from "@/components/sections/TreatmentIntro";
+import Benefits from "@/components/sections/Benefits";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <VideoService />
       <MedicalFeatures />
       <TreatmentIntro />
+      <Benefits />
     </main>
   );
 }
