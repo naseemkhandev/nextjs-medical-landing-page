@@ -45,7 +45,7 @@ export default function Hero() {
 
             {/* Hero Doctor Visual */}
             <motion.div initial={{ opacity: 0, x: 55, scale: 0.98 }} animate={{ opacity: 1, x: 0, scale: 1 }} transition={{ duration: 1, delay: 0.22, ease: [0.22, 1, 0.36, 1] }} className="pointer-events-none absolute bottom-0 left-1/2 z-10 h-[405px] w-[115%] -translate-x-1/2 sm:h-[500px] sm:w-[90%] md:h-[550px] md:w-[80%] lg:left-auto lg:right-[-40px] lg:h-[760px] lg:w-[59%] lg:translate-x-0 xl:right-[-55px] xl:h-[790px] xl:w-[60%]">
-              <motion.div animate={{ y: [0, -5, 0] }} transition={{ duration: 5, repeat: Infinity, ease: "easeInOut" }} className="relative h-full w-full">
+              <motion.div className="relative h-full w-full">
                 <Image src="/images/hero-doctor.png" alt="Professional female doctor at Docthea medical center" fill priority sizes="(max-width: 767px) 100vw, (max-width: 1023px) 80vw, 60vw" className="object-contain object-bottom" />
               </motion.div>
             </motion.div>

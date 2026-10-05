@@ -52,7 +52,7 @@ export default function Footer() {
   return (
     <footer className="overflow-hidden rounded-b-[34px] bg-[#fbfaf9]">
       <Container>
-        <div className="relative grid grid-cols-2 gap-x-8 gap-y-10 py-[70px] sm:grid-cols-3 sm:py-[85px] lg:min-h-[430px] lg:grid-cols-[190px_190px_220px_1fr] lg:gap-14 lg:py-[95px]">
+        <div className="relative grid grid-cols-2 gap-x-8 gap-y-10 pb-6 pt-[70px] sm:grid-cols-3 sm:pb-8 sm:pt-[85px] lg:min-h-[430px] lg:grid-cols-[190px_190px_220px_1fr] lg:gap-14 lg:py-[95px]">
           {/* Docthea Links */}
           <motion.div initial={{ opacity: 0, y: 25 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true }} transition={{ duration: 0.65 }}>
             <h3 className="mb-6 text-[15px] font-semibold text-[#111315]">Docthea</h3>
@@ -118,7 +118,7 @@ export default function Footer() {
           </motion.div>
 
           {/* Copyright */}
-          <div className="col-span-2 border-t border-black/[0.07] pt-5 text-[12px] text-[#777] sm:col-span-3 lg:absolute lg:bottom-[28px] lg:left-0 lg:border-0 lg:pt-0 lg:text-[13px]">
+          <div className="col-span-2 border-t border-black/[0.07] pt-4 text-[12px] text-[#777] sm:col-span-3 sm:pt-5 lg:absolute lg:bottom-[28px] lg:left-0 lg:border-0 lg:pt-0 lg:text-[13px]">
             © {currentYear} Docthea. All rights reserved.
           </div>
         </div>
