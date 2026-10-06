@@ -10,17 +10,19 @@ const inter = Inter({
 export const metadata = {
   title: "Docthea",
   description: "Professional medical care and treatment services",
-  icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-    apple: "/favicon.svg",
-  },
 };
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
-      <body className={inter.variable}>{children}</body>
+    <html lang="en" suppressHydrationWarning>
+      <head>
+        <link rel="icon" href="/docthea-favicon.svg?v=10" type="image/svg+xml" />
+        <link rel="shortcut icon" href="/docthea-favicon.svg?v=10" type="image/svg+xml" />
+      </head>
+
+      <body className={inter.variable} suppressHydrationWarning>
+        {children}
+      </body>
     </html>
   );
 }
