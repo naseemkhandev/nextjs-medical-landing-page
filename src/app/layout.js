@@ -8,9 +8,13 @@ const inter = Inter({
 });
 
 export const metadata = {
-  title: "Docthea | Professional Medical Care",
-  description:
-    "Connect with trusted medical professionals and access quality healthcare services with Docthea.",
+  title: "Docthea",
+  description: "Professional medical care and treatment services",
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+    apple: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({ children }) {
